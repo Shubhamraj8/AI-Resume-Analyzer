@@ -16,19 +16,18 @@ export default function Home() {
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
     <section className="main-section">
-      <div className="page-heading">
+      <div className="page-heading py-15">
         <h1>Track your Applications & Resume Ratings</h1>
         <h2>Review your Submissions and check AI powered feedback.</h2>
       </div>
-    </section>
-    {resume.length > 0 &&(
+      {resume.length > 0 &&(
       <div className="resumes-section">
       {resumes.map((resume) => (
       <ResumeCard key={resume.id} resume={resume}/>
       ))}
       </div>
     )}
-    
+    </section>
     
 
 
