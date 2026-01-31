@@ -1,5 +1,7 @@
 # AI Resume Analyzer 🚀
 
+**Live Demo:** [https://ai-resume-analyzer-shubham.vercel.app](https://ai-resume-analyzer-shubham.vercel.app)
+
 An AI-powered Resume Analyzer built with **React**, **TypeScript**, and **Puter.js**.  
 This project allows users to upload resumes, authenticate seamlessly, and receive AI-driven ATS scores and feedback tailored to specific job listings — all without a traditional backend.
 
